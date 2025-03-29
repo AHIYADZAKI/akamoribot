@@ -1,0 +1,32 @@
+{
+  "name": "discord-music-bot",
+  "version": "1.0.0",
+  "description": "Discord bot with music and moderation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "setup": "npm install --include=optional"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "discord-player": "^7.1.4",
+    "@discord-player/extractor": "^5.0.2",
+    "@discordjs/opus": "^0.9.0",
+    "@discord-player/youtubei": "^1.0.0",
+    "@discordjs/rest": "^2.0.1",
+    "discord-api-types": "^0.37.60",
+    "play-dl": "^1.9.6",
+    "ytdl-core": "^4.12.0",
+    "ffmpeg-static": "^5.1.0",
+    "dotenv": "^16.3.1",
+    "ms": "^3.0.0-canary.1",
+    "chalk": "^4.1.2",
+    "mongoose": "^8.0.3"
+  },
+  "optionalDependencies": {
+    "libsodium-wrappers": "^0.7.11"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
