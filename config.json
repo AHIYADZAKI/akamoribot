@@ -1,9 +1,0 @@
-{
-  "token": "YOUR_TOKEN",
-  "guildId": "GUILD_ID",
-  "clientId": "CLIENT_ID",
-  "logChannelId": "LOG_ID",
-  "muteRoleId": "ROLE_ID",
-  "moderatorRoles": ["ROLE_ID", "ROLE_ID"],
-  "maxQueueSize": 50
-}
